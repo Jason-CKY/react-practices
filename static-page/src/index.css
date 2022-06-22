@@ -1,3 +1,33 @@
 * {
     font-family: 'Inter';
 }
+
+body {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px;
+    background-color: #26272D;
+}
+
+.nav-topleft {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #61DAFB
+}
+
+.nav-logo {
+    width: 40px;
+}
+
+.nav-details {
+    display: flex;
+    align-items: flex-end;
+    color: #E2F3FE
+}
