@@ -3,6 +3,7 @@ import React from 'react'
 export function Main() {
     return (
         <div className="main">
+            <div className="logo"></div>
             <h1>Fun facts about React</h1>
             <ul>
                 <li>Was first released in 2013</li>

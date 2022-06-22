@@ -1,9 +1,7 @@
-* {
-    font-family: 'Inter';
-}
-
 body {
     margin: 0;
+    font-family: Inter, sans-serif;
+    background-color: #2C3137;
 }
 
 .nav {
@@ -17,11 +15,19 @@ body {
     background-color: #26272D;
 }
 
+.nav > h2 {
+    font-weight: 700;
+}
+
+.nav > h3 {
+    font-weight: 600;
+}
+
 .nav-topleft {
     display: flex;
     align-items: center;
     gap: 10px;
-    color: #61DAFB
+    color: #61DAFB;
 }
 
 .nav-logo {
@@ -29,14 +35,51 @@ body {
 }
 
 .nav-details {
-    display: flex;
-    align-items: flex-end;
     color: #E2F3FE
 }
 
 .main {
     margin-top: -25px;
     height: 100vh;
-    background-color: #2C3137;
-    color: #E2F3FE
+    color: #E2F3FE;
+}
+
+
+
+.main > h1 {
+    padding-top: 5%;
+    padding-left: 3%;
+    font-weight: 700;
+}
+
+.main > ul {
+    padding-left: 10%;
+}
+
+.main > ul li::marker {
+    color: #61DAFB;
+    list-style-type: disc;
+    line-height: 30px;
+    font-size: 1.4rem;
+}
+
+.logo {
+    /* background: url("./images/react-logo-small.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    color: gray;
+    filter: grayscale(100%) */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 500px;
+    height: 500px;
+    background-image: url("./images/react-logo-small.png");
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    opacity: 50%;
 }
