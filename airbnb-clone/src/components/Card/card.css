@@ -1,0 +1,41 @@
+.cardlist {
+    height: 600px;
+    display: flex;
+    align-items: flex-start;
+    /* background-color: pink; */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+    gap: -20px;
+    /* background-color: blueviolet; */
+}
+
+.card--picture {
+    align-self: center;
+    border-radius: 9px;
+    margin-top: -15px;
+}
+
+.card--picture--status {
+    height: 30px;
+    width: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 400;
+    position: relative;
+    top: -350px;
+    left: 10px;
+}
+
+.card--stats {
+    margin-top: -30px;
+    display: flex;
+    align-items: center;
+}

@@ -5,15 +5,29 @@ import './card.css'
 
 export function Card(){
     return (
-        <div className="card">
-            <img src={card_photo} alt=""></img>
-            <div className="card--stars">
-                <img src={star} alt=""></img>
-                <p>5.0</p>
-                <p>(6) USA</p>
+        <section className="card">
+            <div className="card--picture">
+                <img src={card_photo} alt=""></img>
+                <div className="card--picture--status">
+                    <p>SOLD OUT</p>
+                </div>
             </div>
-            <p>Life lessons with Katie Zaferes</p>
-            <p><b>From $136</b> / person</p>
+            <div className="card--stats">
+                <img src={star} alt=""></img>
+                <span>5.0</span>
+                <span className="gray">(6) • </span>
+                <span className="gray">USA</span>
+            </div>
+            <p>Life Lessons with Katie Zaferes</p>
+            <p><span className="bold">From $136</span> / person</p>
+        </section>
+    )
+}
+
+export function Card_List(){
+    return (
+        <div className="cardlist">
+            <Card />
         </div>
     )
 }
