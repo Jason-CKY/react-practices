@@ -31,6 +31,7 @@ main {
     position: relative;
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .meme--image {
